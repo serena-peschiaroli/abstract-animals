@@ -14,4 +14,16 @@ public abstract class Animal {
     public void sleep(){
         System.out.println("Zzzzzzzz");
     };
+    public abstract void eat();
+
+    public abstract void makeNoise();
+
+    //getters&setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
